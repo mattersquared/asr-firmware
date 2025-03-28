@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASR Firmware Flasher</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@8.0.0/dist/web/install-button.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    install-button {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ASR Firmware Flasher</h1>
+  <p>Firmware Version: <strong>0.1.0</strong></p>
+  <install-button manifest="https://raw.githubusercontent.com/mattersquared/asr-firmware/main/manifest_0.1.0.json">
+    Flash My ESP32
+  </install-button>
+</body>
+</html>
