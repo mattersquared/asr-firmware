@@ -1,20 +1,20 @@
 {
-  "name": "ASR A2DP Sink",
-  "version": "0.1.0",
-  "platform": "esp32",
-  "chipFamily": "ESP32",
-  "parts": [
-    {
-      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/bootloader_0.1.0.bin",
-      "offset": 4096
-    },
-    {
-      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/partition-table_0.1.0.bin",
-      "offset": 32768
-    },
-    {
-      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/app_0.1.0.bin",
-      "offset": 65536
-    }
-  ]
+	"name": "ASR A2DP Sink",
+	"version": "0.1.0",
+	"platform": "esp32",
+	"chipFamily": "ESP32",
+	"parts": [
+		{
+			"path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/bootloader_0.1.0.bin",
+			"offset": 4096
+		},
+		{
+			"path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/partition-table_0.1.0.bin",
+			"offset": 32768
+		},
+		{
+			"path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/app_0.1.0.bin",
+			"offset": 65536
+		}
+	]
 }
