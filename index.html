@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ASR Firmware Flasher</title>
-  <script type="module" src="https://unpkg.com/esp-web-tools@8.0.0/dist/web/install-button.js"></script>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    install-button {
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <h1>ASR Firmware Flasher</h1>
-  <p>Firmware Version: <strong>0.1.0</strong></p>
-  <install-button manifest="https://raw.githubusercontent.com/mattersquared/asr-firmware/main/manifest_0.1.0.json">
-    Flash My ESP32
-  </install-button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ASR Firmware Flasher</title>
+    <script type="module">
+      import "https://unpkg.com/esp-web-tools@8.0.0/dist/web/install-button.js";
+    </script>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        padding: 60px 20px;
+        background: #f5f5f5;
+      }
+      install-button {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Update ASR Firmware</h1>
+    <p>This tool installs firmware version <strong>v0.1.0</strong> to your ASR device via USB.</p>
+
+    <install-button manifest="https://raw.githubusercontent.com/mattersquared/asr-firmware/main/manifest_0.1.0.json">
+      Flash My ASR
+    </install-button>
+
+    <p style="margin-top: 40px; font-size: 0.9em; color: #666;">
+      Use Chrome or Edge on desktop. Plug in your device via USB before clicking.
+    </p>
+  </body>
 </html>
