@@ -5,15 +5,15 @@
   "chipFamily": "ESP32",
   "parts": [
     {
-      "path": "https://www.dropbox.com/scl/fi/4rsyrwh78v2ldha2l124m/bootloader_0.1.0.bin?raw=1",
+      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/bootloader_0.1.0.bin",
       "offset": 4096
     },
     {
-      "path": "https://www.dropbox.com/scl/fi/3mcowm9ehvwn6nqrprmnf/partition-table_0.1.0.bin?raw=1",
+      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/partition-table_0.1.0.bin",
       "offset": 32768
     },
     {
-      "path": "https://www.dropbox.com/scl/fi/655msat6g2g3tok985zh7/app_0.1.0.bin?raw=1",
+      "path": "https://raw.githubusercontent.com/mattersquared/asr-firmware/main/app_0.1.0.bin",
       "offset": 65536
     }
   ]
